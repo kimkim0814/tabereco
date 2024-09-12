@@ -1,24 +1,64 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+昔開発した、food-picturesのリポジトリを作成して機能要件は
+似たようなものにしつつ、新たに作成し直す予定。
 
-Things you may want to cover:
+## 機能要件
+ミニマムの機能要件と出来ればやりたいものに分ける
 
-* Ruby version
+### ミニマムの機能要件
+- ユーザー管理
+  - 新規登録
+  - ログイン
+  - ログアウト
+  - ユーザー情報編集
+- 写真投稿
+  - 写真アップロード
+- フィード
+  - フォロー中表示
+- 検索機能
+  - 文字列でタイトルの絞り込み
+- いいね機能
+- フォロー機能
+  - フォロー/フォロワー表示
+- スマホ対応
 
-* System dependencies
+### 追加でやりたい機能要件
 
-* Configuration
+- 写真投稿
+  - 位置情報
+- フィード
+  - おすすめ表示
+- 検索機能
+  - 場所
+    - google map api等で連携させて要件を満たす
+      - その場合は検索が難しいことを考慮
+    - アプリ独自で位置情報を持つようにする
+  - いいねでの絞り込み
+- コメント機能
+- 保存機能
+  - お気に入りの投稿を保存できる
+- シェア機能
+- ブロック機能
+- ソート機能
 
-* Database creation
+## 技術スタック
 
-* Database initialization
+使用する言語、フレームワーク、インフラなどの技術スタックを記載します。
 
-* How to run the test suite
+**バックエンド**
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby
+- Ruby on Rails(API モード SEO は気にしない)
+- MySQL
 
-* Deployment instructions
+**フロントエンド**
 
-* ...
+- TypeScript
+- React
+- Chakra UI
+
+**インフラ**
+
+- Render(初期)
+- AWS(以降予定)
